@@ -10,8 +10,8 @@ template_pdf = st.file_uploader("Upload Invoice Template PDF", type="pdf")
 # Input fields for invoice
 st.header("Invoice Details")
 invoice_nr = st.text_input("Invoice Number")
-# date = st.text_input("Date (YYYY-MM-DD)")
-date = st.date_input(label="Date")
+date = st.text_input("Date (YYYY-MM-DD)")
+# date = st.date_input(label="Date")
 
 st.header("Seller Information")
 seller_name = st.text_input("Seller Name")
